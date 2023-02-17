@@ -28,7 +28,7 @@ public class Program {
 				
 				boolean [][] possibleMovies = chessMatch.possibleMovies(source);
 				UI.clearScreen();
-				UI.printBoard(chessMatch.getPieces(),possibleMovies);
+				UI.printMatch(chessMatch);
 
 				System.out.println();
 				System.out.println("Target");
